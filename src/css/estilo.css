@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.menu {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    background-color: #EEDEE1;
+    width: 100%;
+    height: 70px;
+    padding-top: 25px;
+    
+
+}
+#link_menu_Produtos {
+    text-decoration: none;
+    
+    font-size: 20px;
+    letter-spacing: 3px;
+  
+}
+#link_menu_Sobre {
+    text-decoration: none;
+    font-size: 20px;
+    letter-spacing: 3px;
+    
+}
+#link_menu_Home {
+    text-decoration: none;
+    font-size: 20px;
+    letter-spacing: 3px;
+    
+}
+#link_menu_Contato {
+    text-decoration: none;
+    font-size: 20px;
+    letter-spacing: 3px;
+}
+.link:hover {
+    background-color: #BEBCD6;
+}
+.link {
+    color: black;
+    margin: 20px;
+}
+.footer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100px;
+    margin-top: 20px;
+    flex-direction: column;
+    background-color: #EEDEE1;
+}
+
+.paragrafo {
+    
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+.paragrafo_Home {
+    text-align: center;
+    margin: 30px 0 30px 0px;
+    font-size: 16px;
+}
+.container_container {
+    display: flex;
+    flex-direction: column;
+    margin: 3vh
+}
+.titulo_Home {
+    margin: 10px 0px 40px 0px;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+}
+.titulo_Destacado_Home {
+    color: #EEDEE1;
+}
+img.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%
+}
+.container_Card {
+    display: flex;
+    justify-content: center;
+    margin: 3vw;
+    text-align: center;
+}
+.titulo_Produtos {
+    margin: 10px 0px 40px 0px;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+}
+.container_Curativo {
+    padding-top: 3vw;
+    margin-top: 5vw;
+    padding-bottom: 3vw;
+    background-color: #EEDEE1;
+    text-align: center;
+
+}
+.container_titulo {
+    padding: 3vw;
+}
+
+img.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%
+}
+.card:hover {
+    transform: scale3d(1.1, 1.1, 1);
+    background-color: lightblue;
+}
+.titulo_Sobre {
+    margin: 10px 0px 40px 0px;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+}
+.paragrafo_Sobre {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+.container_Contato {
+    display: flex;
+    margin: 3vw;
+    padding: 3vw;
+    justify-content: center;
+}
+.titulo_Contato {
+    margin: 3vw;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+}
+.input {
+    padding: 2vw;
+    margin: 2vw;
+}
+.mb-3 {
+    margin: 2vw;
+}
+.input_Control:hover {
+    background-color: #EEDEE1;
+}
+.input_Control {
+    padding-top: 0.5vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    border: 2px solid #EEDEE1;
+    color: black;
+    
+    text-decoration: none;
+
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+
+.input_Feedback {
+    margin-left: 2vw;
+    margin-bottom: 2vw;
+    margin-top: 1vw;
+    text-align: center;
+}
+.botao {
+    padding-top: 0.5vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    border: 2px solid #EEDEE1;
+    color: black;
+    text-align: center;
+}
+.botao:hover {
+    transform: scale3d(1.1, 1.1, 1);
+    background-color: #EEDEE1;
+}
+@media only screen and (max-width: 600px) {
+    .container_Card {
+        display: flex;
+        flex-direction: column;
+    }
+    .menu {
+        display: flex;
+        margin: 0 auto;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        height: 70px;
+        padding-top: 25px;
+  }
+  #link_menu_Produtos {
+    text-decoration: none;
+    
+    font-size: 20px;
+  
+}
+#link_menu_Sobre {
+    text-decoration: none;
+    font-size: 20px;
+
+    
+}
+#link_menu_Home {
+    text-decoration: none;
+    font-size: 20px;
+    
+}
+#link_menu_Contato {
+    text-decoration: none;
+    font-size: 20px;
+    
+}
+}
